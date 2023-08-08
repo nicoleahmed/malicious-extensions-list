@@ -16,6 +16,11 @@ https://www.tomsguide.com/news/chrome-extension-spyware
 https://www.trendmicro.com/vinfo/us/security/news/cybercrime-and-digital-threats/chrome-extensions-malicious-domains-used-to-steal-user-data
 https://www.catonetworks.com/blog/threat-intelligence-feeds-and-endpoint-protection-systems-fail-to-detect-24-malicious-chrome-extensions/
 https://aristanetworks.force.com/AristaCommunity/s/article/Google-Doppelganger-Malicious-Chrome-Extension
+https://www.reddit.com/r/chrome/comments/9xd3fg/why_does_google_allow_mindspark_to_distribute/
+https://www.google.co.uk/search?q=site%3Achrome.google.com%2Fwebstore%2F+%22myway%22
+https://www.google.co.uk/search?q=site%3Achrome.google.com%2Fwebstore%2F+%22mindspark.com%22&ei=la7RZLOaD9GghbIPue6xmA0&ved=0ahUKEwjzuLPxh8yAAxVRUEEAHTl3DNMQ4dUDCA8&uact=5&oq=site%3Achrome.google.com%2Fwebstore%2F+%22mindspark.com%22
+https://awakesecurity.com/wp-content/uploads/2020/06/GalComm-Malicious-Chrome-Extensions-Appendix-B.txt
+https://labs.guard.io/fakegpt-2-open-source-turned-malicious-in-another-variant-of-the-facebook-account-stealer-d00ef9883d61
 https://github.com/mallorybowes/chrome-mal-ids/blob/master/current-list-meta.csv
 https://github.com/uku/malicious-chrome-extensions
 https://raw.githubusercontent.com/randomaccess3/detections/main/extensions/chromium/extracted/reddit_droidclub.txt
