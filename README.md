@@ -16,7 +16,22 @@ Other tips include:
 - use a good adblocker (I use [UBO](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm)  and consider using a blocker for your search engine (like [ublacklist](https://github.com/nicoleahmed/nicoles-ublacklist))
 
 
-Here I am pulling together a couple of repositories and some web sources to produce a list of malicious extensions. I will also provide cmd and powershell commands for environments where you cannot run [Palant's check-extensions utility](https://github.com/palant/malicious-extensions-list/releases/)
+Here I am pulling together a couple of repositories and some web sources to produce a list of malicious extensions. I will also provide cmd and powershell commands for environments where you cannot run [Palant's check-extensions utility](https://github.com/palant/malicious-extensions-list/releases/).This [powershell utility](https://github.com/adamcysec/chrome-mal-ids/blob/master/Scan-ChromeExtensions.ps1) for scanning extensions against internet csv files looks useful so will try to alter this. (also a [bash script for mac os](
+
+A principle I will stick to is - once a developer has used malicious code, even if Google says they won't again - I won't trust them. So extension IDs will remain on this list. **Unless evidence of an exploit, recovery and learning is shown.**
+
+This is for my own personal use but you are welcome to use it too.
+
+## Windows folders
+Chrome extension folders can be found here: %Localappdata%\Google\Chrome\User Data\Default\Extensions
+Brave %Localappdata%\BraveSoftware\Brave-Browser\User Data\Default\Extensions
+Edge %Localappdata%\Microsoft\Edge\User Data\Default\Extensions
+
+## Mac OS Folders
+Chrome ~/Library/Application Support/Google/Chrome/Default/Extensions
+Brave ~/Library//Application Support/BraveSoftware/Brave-Browser-Beta/Default/Extensions/
+
+ 
 
 # [Palant's write up](https://github.com/palant)
 ## Potentially malicious browser extensions
@@ -25,3 +40,12 @@ Note: Some extensions listed are no longer available via Chrome Web Store. If th
 
 ## Using check-extensions utility
 Instead of checking extension IDs against the list manually, you can also [download the check-extensions utility](https://github.com/palant/malicious-extensions-list/releases/). When run without parameters, it will try locating all browser profiles of Chrome and Chromium-based browsers under your user account. A list of browser profiles to check can also be given explicitly as command line parameters.
+
+# List of sources
+
+| Site | Page | Lists |
+|-|-|-|  
+| Palant | ---- | ---- |
+| MaloryBowes | [Github](https://github.com/mallorybowes/chrome-mal-ids) | [CSV](https://github.com/mallorybowes/chrome-mal-ids/raw/master/current-list-meta.csv) |
+| RandomAccess3 | [Github](https://github.com/randomaccess3/detections/tree/main/extensions/chromium) | [CSV](https://github.com/randomaccess3/detections/blob/main/extensions/chromium/suspicious_chromium_extensions.csv) | 
+| McAfee | [Cookie stuffing](https://www.mcafee.com/blogs/other-blogs/mcafee-labs/malicious-cookie-stuffing-chrome-extensions-with-1-4-million-users),[Netflix Imposters](https://www.mcafee.com/blogs/other-blogs/mcafee-labs/imposter-netflix-chrome-extension-dupes-100k-users) | Pages |
