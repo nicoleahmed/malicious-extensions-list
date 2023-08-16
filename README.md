@@ -3,12 +3,12 @@ Despite browser safety mechanisms, extension "review" by browser companies and a
 
 Other tips include:
 - use as few extensions as possible
-- use extensions which are approved in [reputable security forums ](https://www.wilderssecurity.com/threads/more-malicious-extensions-in-chrome-web-store.451628/)
-- chrome reviews and install counts cannot be relied upon
+- use extensions which are approved in [reputable security forums](https://www.wilderssecurity.com/threads/more-malicious-extensions-in-chrome-web-store.451628/)
+- chrome webstore reviews and install counts cannot be relied upon - much like amazon, these are now bought and sold and meaningless
 - ignore the featured extensions badge in Chrome Store as these do not correlate with safety
 - prefer popular and well maintained open source extensions and check that the releases match (e.g. check github and chrome store versions are the same - [see here for why](https://github.com/greatsuspender/thegreatsuspender/issues/1263))
 - consider installing directly from popular and well maintained open source downloads ( load unpacked extensions in developer mode )
-- compare to the Mozilla Recommended Extensions program
+- compare to the Mozilla Recommended Extensions program (this is better maintained and reviewed much quicker than for Chrome)
 - check privacy policies (though malicious actors will straight up lie in these)
 - check permissions for extensions (again hard to differentiate between good and bad actors, some extensions require extensive permissions for their tasks but should request these as needed - it's more obvious when a simple extension is requesting many more permissions than usual).
 - consider running extension updates on your own cycle. This will allow you to check that all your extensions continue to be managed by good actors and gives you a chance to check that code continues to be open source.
@@ -16,9 +16,9 @@ Other tips include:
 - use a good adblocker (I use [UBO](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm)  and consider using a blocker for your search engine (like [ublacklist](https://github.com/nicoleahmed/nicoles-ublacklist))
 
 
-Here I am pulling together a couple of repositories and some web sources to produce a list of malicious extensions. I will also provide cmd and powershell commands for environments where you cannot run [Palant's check-extensions utility](https://github.com/palant/malicious-extensions-list/releases/).This [powershell utility](https://github.com/adamcysec/chrome-mal-ids/blob/master/Scan-ChromeExtensions.ps1) for scanning extensions against internet csv files looks useful so will try to alter this. (also a [bash script for mac os](
+Here I am pulling together a couple of repositories and some web sources to produce a list of malicious extensions. I will also provide cmd and powershell commands for environments where you cannot run [Palant's check-extensions utility](https://github.com/palant/malicious-extensions-list/releases/).This [powershell utility](https://github.com/adamcysec/chrome-mal-ids/blob/master/Scan-ChromeExtensions.ps1) for scanning extensions against internet csv files looks useful so will try to alter this. (also a [bash script for mac os](https://github.com/gnyman/chromium-mal-ids/blob/master/chrome-ext-check.sh) and [another](https://github.com/mohammed-ali-1/malicious_extensions_finder/blob/master/malicious_extensions_finder.sh))
 
-A principle I will stick to is - once a developer has used malicious code, even if Google says they won't again - I won't trust them. So extension IDs will remain on this list. **Unless evidence of an exploit, recovery and learning is shown.**
+A principle I will stick to is - once a developer has used malicious code, even if Google says they won't again - I won't trust them. So extension IDs will remain on this list. **Unless evidence of an exploit, recovery and learning is shown by developer.**
 
 This is for my own personal use but you are welcome to use it too.
 
@@ -48,4 +48,8 @@ Instead of checking extension IDs against the list manually, you can also [downl
 | Palant | ---- | ---- |
 | MaloryBowes | [Github](https://github.com/mallorybowes/chrome-mal-ids) | [CSV](https://github.com/mallorybowes/chrome-mal-ids/raw/master/current-list-meta.csv) |
 | RandomAccess3 | [Github](https://github.com/randomaccess3/detections/tree/main/extensions/chromium) | [CSV](https://github.com/randomaccess3/detections/blob/main/extensions/chromium/suspicious_chromium_extensions.csv) | 
-| McAfee | [Cookie stuffing](https://www.mcafee.com/blogs/other-blogs/mcafee-labs/malicious-cookie-stuffing-chrome-extensions-with-1-4-million-users),[Netflix Imposters](https://www.mcafee.com/blogs/other-blogs/mcafee-labs/imposter-netflix-chrome-extension-dupes-100k-users) | Pages |
+| McAfee | [Cookie stuffing](https://www.mcafee.com/blogs/other-blogs/mcafee-labs/malicious-cookie-stuffing-chrome-extensions-with-1-4-million-users), [Netflix Imposters](https://www.mcafee.com/blogs/other-blogs/mcafee-labs/imposter-netflix-chrome-extension-dupes-100k-users) | Pages |
+|Adguard|[Stenography](https://adguard.com/en/blog/fake-ad-blockers-part-3.html), [Cookie stuffing](https://adguard.com/en/blog/fake-ad-blockers-part-3.html)|[Gist](https://gist.github.com/ameshkov/238e45af398dfbae242fd32fe4894516)|
+|GoSecure|[Fake Reviews](https://www.gosecure.net/blog/2022/02/10/
+malicious-chrome-browser-extension-exposed-chromeback-leverages-silent-extension-loading/)|[Spreadsheet](https://docs.google.com/spreadsheets/d/1CcFc4mgGA9Ping8RZIh6MH5XUUFXyYdJlvO-xRMda1Q/)|
+|Symantec|[Cryptojacking](https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/cryptojacking-extensions-chrome-web-store)|Page|

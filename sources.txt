@@ -1,4 +1,7 @@
+https://github.com/nicoleahmed/malicious-extensions-list/blob/main/testliveextensions.csv
+https://github.com/mohammed-ali-1/malicious_extensions_finder/blob/master/malicious_extensions_finder.sh
 https://github.com/palant/malicious-extensions-list/blob/main/list.txt
+https://gist.github.com/ameshkov/238e45af398dfbae242fd32fe4894516
 https://heimdalsecurity.com/blog/malicious-chrome-extension/
 https://www.gosecure.net/blog/2022/02/10/malicious-chrome-browser-extension-exposed-chromeback-leverages-silent-extension-loading/
 https://www.mcafee.com/blogs/other-blogs/mcafee-labs/malicious-cookie-stuffing-chrome-extensions-with-1-4-million-users
@@ -16,6 +19,11 @@ https://www.tomsguide.com/news/chrome-extension-spyware
 https://www.trendmicro.com/vinfo/us/security/news/cybercrime-and-digital-threats/chrome-extensions-malicious-domains-used-to-steal-user-data
 https://www.catonetworks.com/blog/threat-intelligence-feeds-and-endpoint-protection-systems-fail-to-detect-24-malicious-chrome-extensions/
 https://aristanetworks.force.com/AristaCommunity/s/article/Google-Doppelganger-Malicious-Chrome-Extension
+https://www.reddit.com/r/chrome/comments/9xd3fg/why_does_google_allow_mindspark_to_distribute/
+https://www.google.co.uk/search?q=site%3Achrome.google.com%2Fwebstore%2F+%22myway%22
+https://www.google.co.uk/search?q=site%3Achrome.google.com%2Fwebstore%2F+%22mindspark.com%22&ei=la7RZLOaD9GghbIPue6xmA0&ved=0ahUKEwjzuLPxh8yAAxVRUEEAHTl3DNMQ4dUDCA8&uact=5&oq=site%3Achrome.google.com%2Fwebstore%2F+%22mindspark.com%22
+https://awakesecurity.com/wp-content/uploads/2020/06/GalComm-Malicious-Chrome-Extensions-Appendix-B.txt
+https://labs.guard.io/fakegpt-2-open-source-turned-malicious-in-another-variant-of-the-facebook-account-stealer-d00ef9883d61
 https://github.com/mallorybowes/chrome-mal-ids/blob/master/current-list-meta.csv
 https://github.com/uku/malicious-chrome-extensions
 https://raw.githubusercontent.com/randomaccess3/detections/main/extensions/chromium/extracted/reddit_droidclub.txt
@@ -24,13 +32,4 @@ https://raw.githubusercontent.com/randomaccess3/detections/main/extensions/chrom
 https://raw.githubusercontent.com/randomaccess3/detections/main/extensions/chromium/extracted/awake_galcomm.txt
 https://github.com/randomaccess3/detections/blob/main/extensions/chromium/suspicious_chromium_extensions.csv
 https://github.com/nicoleahmed/malicious-extensions-list/blob/main/extraextensions.csv
-
-
-
-
-
-
-
-
-
-
+https://docs.google.com/spreadsheets/d/1CcFc4mgGA9Ping8RZIh6MH5XUUFXyYdJlvO-xRMda1Q/
